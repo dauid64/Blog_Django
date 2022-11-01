@@ -16,6 +16,7 @@ class PostIndex(ListView):
 
     def get_queryset(self):
         qs = super().get_queryset()
+        qs = qs.select_related('categoria_post') # consulta mais complexa para realizar somente uma consulta para categoria que outra tabela e otimizando a performace
         qs = qs.order_by('-id').filter(publicado_post=True)
         qs = qs.annotate(
             numero_comentario = Count(
