@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% load crispy_forms_tags %}
 
 {% block titulo %}{{ post.titulo_post|title }} | {% endblock %}
 
@@ -55,16 +56,10 @@
         <form method="POST" action="#envia_comentario">
             {% csrf_token %}
             {% for invisiveis in form.hidden_fields %}
-                {{ invisiveis.label_tag }} <br>
-                {{ invisiveis }}
-                {{ invisiveis.errors }}
+                {{ invisiveis|as_crispy_field }}
             {% endfor %}
             {% for visiveis in form.visible_fields %}
-            <div class="form-group">
-                {{ visiveis.label_tag }} <br>
-                {{ visiveis }}
-                {{ visiveis.errors }}
-            </div>
+                {{ visiveis|as_crispy_field }}
             {% endfor %}
             {% include 'partials/messages.html' %}
             <input id="envia_comentario" type="submit" class="btn btn-primary" value="Enviar">
