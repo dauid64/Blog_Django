@@ -1,6 +1,6 @@
 # Blog do Carlos
 
-Program made through studies on Udemy with the Django Framework working this time with classes and summernotes
+Program made through studies on Udemy with the Django Framework working this time with classes, comments, summernotes, security and other things
 
 # Home
 
