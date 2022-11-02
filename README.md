@@ -4,7 +4,7 @@ Program made through studies on Udemy with the Django Framework working this tim
 
 # Home
 
-![image](https://user-images.githubusercontent.com/94979678/199248571-84ed5ebe-c00e-4e0c-aef6-491c9beeb565.png)
+![image](https://user-images.githubusercontent.com/94979678/199371644-371f2b69-5cdd-4170-a836-7af3e62b2869.png)
 
 # Search
 
