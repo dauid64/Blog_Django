@@ -17,4 +17,4 @@ Program made through studies on Udemy with the Django Framework working this tim
 
 # Comments
 
-![image](https://user-images.githubusercontent.com/94979678/199248791-232cf1f9-a4c4-4c4d-b51e-dd96f5431619.png)
+![image](https://user-images.githubusercontent.com/94979678/199371554-b609cd15-1206-4c49-9cdd-b00d13bcff76.png)
